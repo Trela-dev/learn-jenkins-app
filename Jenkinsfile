@@ -21,8 +21,8 @@ agent any
             }
         }
         stage('Test'){
-            
-            steps(){
+        
+            steps{
                 sh 'test -f build/index.html'
             }
 
